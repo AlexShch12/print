@@ -1,0 +1,504 @@
+/*
+Theme Name: Choose Travel
+Theme URI: http://localhost/travel/
+Author: Alex
+Description: Описание темы
+Version: 1.0
+*/
+
+/* CSS Document */
+*{
+	margin:0; padding:0;
+	}
+img{
+	border:0;
+	}	
+body{
+	background:#edece8 url(images/bg-head.jpg) center top no-repeat;
+	}	
+.main{
+	width:970px; margin:0 auto;
+	}
+	.head{
+		height:250px;
+		}
+		.head h2{
+			font:normal 24px "Century Gothic"; float:left; color:#3f282f; margin-top:10px;
+			}
+		.head a{
+			font:normal 26px "Century Gothic"; float:right; color:#716b5b; text-decoration:none; margin:20px 10px 0 0;
+			}	
+		.head a span{
+			color:#a73700;
+			}	
+	.menu{
+		overflow:hidden; list-style:none; background:#3f282f;
+		border-radius: 15px 15px 0 0;
+		-moz-border-radius:  15px 15px 0 0;
+		-webkit-border-radius:  15px 15px 0 0;	
+		}
+		.menu li{
+			float:left; background:url(../images/menu-bg.jpg) left center no-repeat; padding:15px 35px;
+			}
+		.menu li:first-child{
+			float:left; background:none; padding:15px 35px;
+			}		
+			.menu li a{	
+				font:18px "Century Gothic"; color:#fff; text-decoration:none;
+				}
+			.menu li a:hover{	
+				font:18px "Century Gothic"; color:#fff; text-decoration:underline;
+				}		
+	.search-main{
+		float:right; margin: -50px 25px 0 0;
+		}		
+		.serch-txt{
+			height:23px; background:#; border:1px solid #fff; width:230px; margin: 0 10px 0 0;
+			border-radius: 2px;
+			-moz-border-radius: 2px;
+			-webkit-border-radius: 2px;
+			}	
+		.serch-btn{
+			position:relative; top:11px;
+			}	
+	.content-main{
+		background:#f7f7f7; border:1px solid #fff; overflow:hidden; 
+		border-radius: 15px;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		}	
+	.content{
+		width:700px; float:left; margin:0 0 0 20px;
+		}		
+		.post-main{
+			background:#f5f5f5; border:1px solid #e7e2e3; margin:0 0 20px 0;
+			border-radius: 8px;
+			-moz-border-radius: 8px;
+			-webkit-border-radius: 8px;
+			overflow: hidden;
+			}
+			.imgstyle{
+				float:left; margin:0 15px 15px 0;
+				}
+			.post-main h1{
+				background:#e2e0e1; font:normal 24px Verdana; color:#3f282f; padding: 5px 0 8px 15px; margin: 0 0 5px 0;
+				border-radius: 8px 8px 0 0;
+				-moz-border-radius: 8px 8px 0 0;
+				-webkit-border-radius: 8px 8px 0 0;
+				}
+				.post-main h1 a{
+					font:normal 24px Verdana; color:#3f282f; text-decoration:none;
+					}
+				.post-main h1 a:hover{
+					font:normal 24px Verdana; color:#3f282f; text-decoration:underline;
+					}	
+				.post-main h1 span{
+					font:normal 12px Verdana; color:#b8a6ab;
+					}
+			.post{
+				margin: 0 15px 15px;
+				}		
+			.post p{
+				font:12px Verdana; margin: 0 0 15px;
+				}
+			.post a{
+				color:#3f282f; text-decoration:underline;
+				}	
+			.post a:hover{
+				color:#3f282f; text-decoration:none;
+				}	
+
+/*		SIDEBAR		*/
+
+.sidebar{
+	float:left; margin: 0 0 0 20px; width: 207px;
+	}
+.vidget{
+	background:#e7e2e3; margin:0 0 20px 0; border:1px solid #d7d3d4;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	}	
+	.vidget h2{	
+		background:#3f282f; color:#fff; font:18px "Century Gothic"; text-align:center; padding:5px 0;
+		border-radius: 8px 8px 0 0;
+		-moz-border-radius: 8px 8px 0 0;
+		-webkit-border-radius: 8px 8px 0 0;
+		}	
+	.vidget ul{
+		list-style:none; padding:25px 15px;
+		}	
+		.vidget ul li{
+			border-bottom:1px solid #c8bbbd; border-top:1px solid #fff; padding: 5px 0 5px 20px;
+			}
+		.vidget ul li:first-child{
+			border-top:none;
+			}
+		.vidget ul li:last-child{
+			border-bottom:none;
+			}		
+		.vidget ul li a{
+			color:#000; font:14px "Century Gothic";
+			}
+		.vidget ul li a:hover{
+			color:#000; font:14px "Century Gothic"; text-decoration:none;
+			}	
+					
+/*		FOOTER		*/					
+	
+.footer{
+	overflow:hidden; padding: 30px 25px;
+	}
+	.cpy{
+		float:left;
+		}					
+	.cpy a{
+		font:normal 26px "Century Gothic"; color:#716b5b; text-decoration:none; margin:20px 10px 0 0;
+		}	
+	.cpy a span{
+		color:#a73700;
+		}
+	.cpy p{
+		font:14px verdana; color:#000; line-height:1.1; margin:10px 0 0 0;
+		}		
+	.menu-foot{
+		float:left; margin: 0 0 0 175px;
+		}	
+	.menu-foot h2{
+		font:normal 24px "Century Gothic"; color:#3f282f;
+		}
+	.menu-foot ul{
+		list-style:none;
+		}	
+	.menu-foot ul li{
+		list-style:none;
+		}	
+	.menu-foot ul li a{
+		font:14px "Century Gothic"; color:#000;
+		}
+	.menu-foot ul li a:hover{
+		font:14px "Century Gothic"; color:#000; text-decoration:none;
+		}	
+							
+
+
+#slider{
+	background: #b5b5b5;
+	border: 1px solid #3f282f;
+	height: 266px;
+	margin-top: 0px;
+	width: 927px;
+	overflow: hidden;
+	position: relative;
+	margin: 15px auto 25px;
+}
+
+#cyclePager{
+	position: absolute;
+	height: 18px;
+	overflow: hidden;
+	right: 20px;
+	bottom: 20px;
+	z-index: 99;
+}
+
+#cyclePager a{
+	background: transparent url(images/pager-gal.png) 0 0 no-repeat;
+	display: block;
+	float: left;
+	height: 17px;
+	margin-left: 10px;
+	text-indent: -9999px;
+	width: 17px;
+}
+
+#cyclePager a:hover,
+#cyclePager a.activeSlide{background-position: -17px 0;}
+
+.page-title{
+	margin: 0 0 20px 0;
+	color: #3F282F;
+	font: 20px Verdana;
+	border-bottom: 1px dashed #ccc;
+}
+					
+/* pagination */
+.pagination{
+	margin: 20px;
+}
+.pagination span,
+.pagination a{
+	background: #3F282F;
+	color: #fff;
+	padding: 6px 12px;
+	text-decoration: none;
+	margin: 0;
+	border-radius: 5px;
+}
+.pagination span.current{
+	background: #6E4652;
+	color: #fff;
+	border-radius: 5px;
+}
+.pagination a:hover{
+	background: #6E4652;
+}
+.pagination span.dots{
+	border: none;
+}
+
+
+/**
+ * 12.3 Comments
+ */
+
+.comments-area {
+	background-color: #fff;
+	border-top: 1px solid #eaeaea;
+	border-top: 1px solid rgba(51, 51, 51, 0.1);
+	padding: 7.6923%;
+}
+
+.comments-area > :last-child {
+	margin-bottom: 0;
+}
+
+.comment-list + .comment-respond {
+	border-top: 1px solid #eaeaea;
+	border-top: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+.comment-list + .comment-respond,
+.comment-navigation + .comment-respond {
+	padding-top: 1.6em;
+}
+
+.comments-title,
+.comment-reply-title {
+	font-family: "Noto Serif", serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 1.3333;
+}
+
+.comments-title {
+	margin-bottom: 1.3333em;
+}
+
+.comment-list {
+	list-style: none;
+	margin: 0;
+}
+
+.comment-list article,
+.comment-list .pingback,
+.comment-list .trackback {
+	border-top: 1px solid #eaeaea;
+	border-top: 1px solid rgba(51, 51, 51, 0.1);
+	padding: 1.6em 0;
+}
+
+.comment-list .children {
+	list-style: none;
+	margin: 0;
+}
+
+.comment-list .children > li {
+	padding-left: 0.8em;
+}
+
+.comment-author {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	margin-bottom: 0.4em;
+}
+
+.comment-author a:hover {
+	border-bottom: 1px solid #707070;
+	border-bottom: 1px solid rgba(51, 51, 51, 0.7);
+}
+
+.comment-author .avatar {
+	float: left;
+	height: 24px;
+	margin-right: 0.8em;
+	width: 24px;
+}
+
+.bypostauthor > article .fn:after {
+	content: "\f304";
+	position: relative;
+	top: 5px;
+	left: 3px;
+}
+
+.comment-metadata,
+.pingback .edit-link {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Noto Sans", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+.comment-metadata a,
+.pingback .edit-link a {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+}
+
+.comment-metadata a:hover,
+.pingback .edit-link a:hover {
+	border-bottom: 1px solid #333;
+}
+
+.comment-metadata a:hover,
+.comment-metadata a:focus,
+.pingback .edit-link a:hover,
+.pingback .edit-link a:focus {
+	color: #333;
+}
+
+.comment-metadata {
+	margin-bottom: 1.6em;
+}
+
+.comment-metadata .edit-link {
+	margin-left: 1em;
+}
+
+.pingback .edit-link {
+	margin-left: 1em;
+}
+
+.pingback .edit-link:before {
+	top: 5px;
+}
+
+.comment-content ul,
+.comment-content ol {
+	margin: 0 0 1.6em 1.3333em;
+}
+
+.comment-content li > ul,
+.comment-content li > ol {
+	margin-bottom: 0;
+}
+
+.comment-content > :last-child {
+	margin-bottom: 0;
+}
+
+.comment-list .reply {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+.comment-list .reply a {
+	border: 1px solid #eaeaea;
+	border: 1px solid rgba(51, 51, 51, 0.1);
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	display: inline-block;
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 700;
+	line-height: 1;
+	margin-top: 2em;
+	padding: 0.4167em 0.8333em;
+	text-transform: uppercase;
+}
+
+.comment-list .reply a:hover,
+.comment-list .reply a:focus {
+	border-color: #333;
+	color: #333;
+	outline: 0;
+}
+
+.comment-form {
+	padding-top: 1.6em;
+}
+
+.comment-form label {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Noto Sans", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	font-weight: 700;
+	display: block;
+	letter-spacing: 0.04em;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form input[type="submit"] {
+	width: 100%;
+}
+
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Noto Sans", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin-bottom: 2em;
+}
+
+.logged-in-as a:hover {
+	border-bottom: 1px solid #333;
+}
+
+.no-comments {
+	border-top: 1px solid #eaeaea;
+	border-top: 1px solid rgba(51, 51, 51, 0.1);
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 700;
+	padding-top: 1.6em;
+}
+
+.comment-navigation + .no-comments {
+	border-top: 0;
+}
+
+.form-allowed-tags code {
+	font-family: Inconsolata, monospace;
+}
+
+.form-submit {
+	margin-bottom: 0;
+}
+
+.required {
+	color: #c0392b;
+}
+
+.comment-reply-title small {
+	font-size: 100%;
+}
+
+.comment-reply-title small a {
+	border: 0;
+	float: right;
+	height: 32px;
+	overflow: hidden;
+	width: 26px;
+}
+
+.comment-reply-title small a:before {
+	content: "\f405";
+	font-size: 32px;
+	position: relative;
+	top: -3px;
+}
+
