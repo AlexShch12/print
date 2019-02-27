@@ -1,9 +1,11 @@
 <div class="footer">
 	<div class="cpy">
 		<a href="/"><span>P</span>rinter <span>S</span>ervice</a>
-		<p>Priner Service 2018<br />
+		<p>&copy;Printer Service 2018-2019<br />
 		Всі права захищені.<br />
-		Email: <?php bloginfo('admin_email'); ?></p>
+		Email: <?php bloginfo('admin_email'); ?><br />
+		Тел. 096-248-31-49
+		</p>
 	</div>
 	<!--  
 	<?php if(!dynamic_sidebar('footer')): ?>
